@@ -1,3 +1,11 @@
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 .section-width {
   max-width: 1440px;
   margin: 0 auto;
@@ -27,13 +35,18 @@
   border: 1px solid #7f8b99;
 }
 
-.about-card:hover > img {
-  opacity: 0.5;
+.grow-buisness {
+  background-image: url(../assets/images/background.png);
 }
 
-.about-card:hover > .about-card-body {
-  position: absolute;
-  top: 0;
-  transition: 300ms;
+footer {
+  background-color: #333;
+}
+
+.footer-menu-items {
+  color: #fff;
+}
+
+.footer-menu-items:hover {
   color: #29af8a;
 }
