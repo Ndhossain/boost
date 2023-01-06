@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BoostInbox</title>
+    <!-- Css Link -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- Js Link -->
+    <script src="./js/app.js" defer></script>
+
+    <!-- Bootstrap css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/cart.css" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- AOS css  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- AOS JS  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- swiper css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- jquery cnd link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <!-- jquery cnd link -->
+    <!-- waypoint cnd link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <!-- waypoint cnd link -->
+    <!-- counter-up cdn link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <!-- counter-up cdn link -->
+    <!-- pricing js file -->
+    <script src="./js/pricing.js"></script>
+    <!-- pricing js file -->
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div
+          class="div-nav container d-flex align-items-center justify-content-between"
+        >
+          <a
+            href="#"
+            class="logo d-flex align-items-center"
+            data-aos="zoom-in-up"
+            data-aos-delay="400"
+            data-aos-duration="1000"
+          >
+            <i class="fa-solid fa-bolt-lightning"></i>
+            <span class="ms-2">BoostInbox</span>
+          </a>
+          <ul
+            class="nav-links d-block d-lg-flex align-items-center justify-content-around py-5 px-2 p-lg-0 m-lg-0"
+          >
+            <li class="mb-3 mb-md-0">
+              <a
+                href="#"
+                data-aos="zoom-in-up"
+                data-aos-delay="400"
+                data-aos-duration="1000"
+                >Pricing</a
+              >
+            </li>
+            <li>
+              <a
+                href="/contact"
+                data-aos="zoom-in-up"
+                data-aos-delay="400"
+                data-aos-duration="1000"
+                >Contact us</a
+              >
+            </li>
+            <li class="mb-3 mb-md-0">
+              <a
+                href="#"
+                data-aos="zoom-in-up"
+                data-aos-delay="400"
+                data-aos-duration="1000"
+                >Create Account</a
+              >
+            </li>
+            <li class="mb-3 mb-md-0">
+              <a
+                href="#"
+                data-aos="zoom-in-up"
+                data-aos-delay="400"
+                data-aos-duration="1000"
+                >Login</a
+              >
+            </li>
+            <li class="mb-3 mb-md-0">
+              <a
+                href="#"
+                data-aos="zoom-in-up"
+                data-aos-delay="400"
+                data-aos-duration="1000"
+                >Cart</a
+              >
+            </li>
+          </ul>
+          <div
+            class="bars d-flex d-lg-none"
+            data-aos="zoom-in-up"
+            data-aos-delay="400"
+            data-aos-duration="1000"
+          >
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+      </nav>
+      <div class="container head-content">
+        <h2
+          class="mb-4 text-center"
+          data-aos="zoom-in-up"
+          data-aos-delay="600"
+          data-aos-duration="1000"
+        >
+          Welcome <br />
+          <span>Oussama Elmatmour</span>
+        </h2>
+      </div>
+      <!-- <div class="bottom-bar"></div> -->
+      <div class="bottom-bar">
+        <svg viewBox="0 0 1500 200">
+          <path
+            d="m 0,240 h 1500.4828 v -71.92164 c 0,0 -286.2763,-81.79324 -743.19024,-81.79324 C 300.37862,86.28512 0,168.07836 0,168.07836 Z"
+          />
+        </svg>
+      </div>
+    </header>
+    <main>
+      <section class="pt-3">
+        <div class="container d-block d-lg-flex align-items-start">
+          <!-- profile edit -->
+          <div class="cart col-lg-4 me-lg-2">
+            <h6
+              class="section-title mb-1 text-start"
+              data-aos="fade-right"
+              data-aos-delay="500"
+            >
+              Edit Profile
+            </h6>
+            <form class="mt-4" action="">
+              <div
+                class="form-floating mb-3"
+                data-aos="fade-right"
+                data-aos-delay="550"
+              >
+                <input
+                  type="text"
+                  class="form-control editable-inputs contacts-inputs"
+                  id="floatingInput"
+                  value="Oussama"
+                  placeholder="name@example.com"
+                  disabled
+                />
+                <label for="floatingInput">First Name</label>
+              </div>
+              <div
+                class="form-floating mb-3"
+                data-aos="fade-right"
+                data-aos-delay="600"
+              >
+                <input
+                  type="text"
+                  class="form-control editable-inputs contacts-inputs"
+                  id="floatingInput"
+                  placeholder="name@example.com"
+                  value="Elmatmour"
+                  disabled
+                />
+                <label for="floatingInput">Last Name</label>
+              </div>
+              <div
+                class="form-floating mb-3"
+                data-aos="fade-right"
+                data-aos-delay="650"
+              >
+                <input
+                  type="email"
+                  class="form-control editable-inputs contacts-inputs"
+                  id="floatingInput"
+                  placeholder="name@example.com"
+                  value="oussama.elmatmour@onwavegroup.com"
+                  disabled
+                />
+                <label for="floatingInput">Email address</label>
+              </div>
+              <div
+                class="form-floating mb-3"
+                data-aos="fade-right"
+                data-aos-delay="650"
+              >
+                <input
+                  type="password"
+                  class="form-control editable-inputs contacts-inputs"
+                  id="floatingInput"
+                  value="Iloveu"
+                  placeholder="name@example.com"
+                  disabled
+                />
+                <label for="floatingInput">Password</label>
+              </div>
+              <div
+                class="d-flex justify-content-en mt-4"
+                data-aos="fade-right"
+                data-aos-delay="650"
+              >
+                <button
+                  id="edit-profile"
+                  type="button"
+                  style="border: none"
+                  class="head-btn"
+                >
+                  Edit Profile
+                </button>
+                <button
+                  id="update-profile"
+                  type="button"
+                  style="border: none"
+                  class="head-btn d-none"
+                >
+                  Update Profile
+                </button>
+              </div>
+            </form>
+          </div>
+          <!-- orders -->
+          <div class="cart col-lg-8 ms-lg-2 mb-4 mb-lg-0">
+            <h6
+              class="section-title mb-1 text-start"
+              data-aos="fade-left"
+              data-aos-delay="500"
+            >
+              Order Summary
+            </h6>
+            <ul class="cart-items mt-4 p-0">
+              <li
+                class="d-block d-sm-flex align-items-center justify-content-between mb-5"
+                data-aos="fade-left"
+                data-aos-delay="600"
+              >
+                <div class="d-flex flex-column col-sm-3 text-center">
+                  <img src="./img/no-image.png" alt="" />
+                  <h6 class="text-center px-2 mt-3">linkin park concert</h6>
+                </div>
+                <div class="d-flex flex-column col-sm-9">
+                  <div class="d-block d-md-flex align-items-center px-4 mb-3">
+                    <div
+                      class="d-flex mb-4 mb-md-0 justify-content-between w-100 align-items-center"
+                    >
+                      <span class="mb-2 type fs-4"
+                        ><strong class="me-2">Category:</strong> Adult</span
+                      >
+                      <span class="price fs-4">€ 170</span>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li
+                class="d-block d-sm-flex align-items-center justify-content-between mb-5"
+                data-aos="fade-left"
+                data-aos-delay="650"
+              >
+                <div class="d-flex flex-column col-sm-3 text-center">
+                  <img src="./img/no-image.png" alt="" />
+                  <h6 class="text-center px-2 mt-3">linkin park concert</h6>
+                </div>
+                <div class="d-flex flex-column col-sm-9">
+                  <div class="d-block d-md-flex align-items-center px-4 mb-3">
+                    <div
+                      class="d-flex mb-4 mb-md-0 justify-content-between w-100 align-items-center"
+                    >
+                      <span class="mb-2 type fs-4"
+                        ><strong class="me-2">Category:</strong> Adult</span
+                      >
+                      <span class="price fs-4">€ 170</span>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer start -->
+    <footer class="mt-5 pt-5 pb-3">
+      <div class="container">
+        <div>
+          <h6 class="text-center primary-text">LINKS</h6>
+          <ul
+            class="d-md-flex justify-content-center align-items-center text-white p-0"
+          >
+            <li class="p-1 d-flex justify-content-center">
+              <a class="footer-menu-items" href="/">Home</a>
+            </li>
+            <span class="d-md-block d-none">|</span>
+            <li class="p-1 d-flex justify-content-center">
+              <a class="footer-menu-items" href="#">Pricing</a>
+            </li>
+            <span class="d-md-block d-none">|</span>
+            <li class="p-1 d-flex justify-content-center">
+              <a class="footer-menu-items" href="#">Contact Us</a>
+            </li>
+            <span class="d-md-block d-none">|</span>
+            <li class="p-1 d-flex justify-content-center">
+              <a class="footer-menu-items" href="#">Privacy Policy</a>
+            </li>
+          </ul>
+        </div>
+        <hr class="border-white" />
+        <div>
+          <p class="text-white">
+            &copy; <span class="date"></span>
+            <a class="footer-menu-items" href="/">BoostInbox</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+    <script src="./js/my-account.js"></script>
+  </body>
+</html>

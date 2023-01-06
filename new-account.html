@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>TicketShop</title>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Offer Details</title>
+      <link rel="icon" href="img/fabicon.png" sizes="32x32" />
+      <link rel="stylesheet" type="text/css" href="/css/all.min.css" />
+      <link rel="stylesheet" href="/css/bootstrap.min.css" />
+      <link rel="stylesheet" href="/css/common.css" />
+      <link rel="stylesheet" href="/css/flag-icon.3.5.0.min.css" />
+      <script src="/js/packages/jquery-3.6.1.min.js"></script>
+      <script src="/js/common.js"></script>
+      <link href="/css/cart.css" rel="stylesheet" />
+      <!-- AOS css  -->
+      <link href="/css/aos.css" rel="stylesheet" />
+      AOS JS 
+      <script src="/js/packages/aos.js"></script>
+      <!-- Font Awesome -->
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      />
+      <link rel="stylesheet" href="css/homePage.css" />
+  <%- include('../../partials/head') %>
+  <link href="/css/cart.css" rel="stylesheet" />
+    
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    <header id="cart">
+      <%- include('../../partials/navLangBar') %>
+        <div class="container head-content text-center">
+          <h1 class="mb-3" data-aos="zoom-in-up" data-aos-delay="500" data-aos-duration="1000">My cart
+        </div>
+        <!-- <div class="bottom-bar"></div> -->
+        <div class="bottom-bar">
+          <svg viewBox="0 0 1500 200">
+            <path
+              d="m 0,240 h 1500.4828 v -71.92164 c 0,0 -286.2763,-81.79324 -743.19024,-81.79324 C 300.37862,86.28512 0,168.07836 0,168.07836 Z" />
+          </svg>
+        </div>
+    </header>
+
+    <%- include('../../partials/footer') %> 
+    <!-- <script src="/js/mainPages/cart.js"></script> -->
+    <%- include('../../partials/footerScripts2') %>
+    <script src="js/mainPages/homePage.js"></script>
+  </body>
+</html>

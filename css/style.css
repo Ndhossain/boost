@@ -453,6 +453,13 @@ footer h6 {
     box-shadow: 0 0 0 0.2rem rgba(41, 175, 138, 0.3) !important;
 }
 
-/* .input-label {
-    color: var(--primary-color) !important;
-} */
+.prim-text {
+    color: var(--primary-color);
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+}
+
+.prim-text:hover {
+    text-decoration: underline;
+}
